@@ -11,6 +11,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/p0072_layoutprop" />
             <option value="$PROJECT_DIR$/p1041_fragmentlifecycle" />
             <option value="$PROJECT_DIR$/p1051_fragmentdynamic" />
             <option value="$PROJECT_DIR$/p1061_fragmentactivity" />
