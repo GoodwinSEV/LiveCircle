@@ -18,9 +18,13 @@
             <option value="$PROJECT_DIR$/p0101_listener" />
             <option value="$PROJECT_DIR$/p0102_activitylistener" />
             <option value="$PROJECT_DIR$/p0121_logandmess" />
+            <option value="$PROJECT_DIR$/p0121_logandmess/p0211_" />
             <option value="$PROJECT_DIR$/p0131_menusimple" />
             <option value="$PROJECT_DIR$/p0161_dinamiclayout" />
             <option value="$PROJECT_DIR$/p0211_twoactivity" />
+            <option value="$PROJECT_DIR$/p0231_OneActivityState" />
+            <option value="$PROJECT_DIR$/p0241_twoactivitystate" />
+            <option value="$PROJECT_DIR$/p0261_intentfilter" />
             <option value="$PROJECT_DIR$/p1041_fragmentlifecycle" />
             <option value="$PROJECT_DIR$/p1051_fragmentdynamic" />
             <option value="$PROJECT_DIR$/p1061_fragmentactivity" />

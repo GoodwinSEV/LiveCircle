@@ -1,4 +1,4 @@
-package com.yakse.p0211_twoactivity;
+package com.yakse.p0261_intentfilter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,26 +9,28 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button btnActTwo;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnActTwo = (Button) findViewById(R.id.btnActTwo);
-        btnActTwo.setOnClickListener(this);
+        Button btnTime = (Button) findViewById(R.id.btnTime);
+        Button btnDate = (Button) findViewById(R.id.btnDate);
+
+        btnTime.setOnClickListener(this);
+        btnDate.setOnClickListener(this);
     }
 
     @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btnActTwo:
-                // TODO Call second activity
-                Intent intent = new Intent(this, MainActivity2.class);
-                startActivity(intent);
+    public void onClick(View view) {
+        Intent intent;
+
+        switch (view.getId()) {
+            case R.id.btnTime:
+                intent = new Intent(com.yakse.action.time);
                 break;
-            default:
+            case R.id.btnDate:
+
                 break;
         }
     }
